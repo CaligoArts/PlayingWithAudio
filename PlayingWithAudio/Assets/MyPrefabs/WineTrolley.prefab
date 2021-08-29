@@ -777,8 +777,8 @@ GameObject:
   - component: {fileID: 1672395813873101555}
   - component: {fileID: 1672395813873101554}
   - component: {fileID: 1672395813873101553}
-  - component: {fileID: 1672395813873101552}
   - component: {fileID: 1672395813873101557}
+  - component: {fileID: 5010652074812653088}
   m_Layer: 0
   m_Name: Trolley
   m_TagString: Untagged
@@ -864,19 +864,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1672395813873101552
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1672395813873101551}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd23aedffd7ff974bad27edff3ec4c4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  positionChange: {x: 0, y: 0, z: -0.0005}
 --- !u!54 &1672395813873101557
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -893,6 +880,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 118
   m_CollisionDetection: 0
+--- !u!114 &5010652074812653088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672395813873101551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ac9f71479dd9f44083daa16844525d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positionChange: {x: 0, y: 0, z: -0.0005}
 --- !u!1 &1672395814202783668
 GameObject:
   m_ObjectHideFlags: 0
