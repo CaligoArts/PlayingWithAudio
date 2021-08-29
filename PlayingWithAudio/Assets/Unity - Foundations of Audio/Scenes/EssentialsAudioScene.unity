@@ -8188,7 +8188,7 @@ BoxCollider:
   m_GameObject: {fileID: 1359063143}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.07006623, y: 2.0158954, z: 3.3914}
   m_Center: {x: -3.8289275, y: 1.5315223, z: 0.036804743}
@@ -15495,3 +15495,72 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 304be88800849b745b500084634ad18f, type: 3}
+--- !u!1001 &4443639617069747327
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4443639616516001284, guid: eeb1b29236f79bb43bf30fbb48c768a2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443639616516001284, guid: eeb1b29236f79bb43bf30fbb48c768a2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.339
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443639616516001284, guid: eeb1b29236f79bb43bf30fbb48c768a2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.988
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443639616516001284, guid: eeb1b29236f79bb43bf30fbb48c768a2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.7279
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443639616516001284, guid: eeb1b29236f79bb43bf30fbb48c768a2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443639616516001284, guid: eeb1b29236f79bb43bf30fbb48c768a2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443639616516001284, guid: eeb1b29236f79bb43bf30fbb48c768a2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443639616516001284, guid: eeb1b29236f79bb43bf30fbb48c768a2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443639616516001284, guid: eeb1b29236f79bb43bf30fbb48c768a2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443639616516001284, guid: eeb1b29236f79bb43bf30fbb48c768a2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443639616516001284, guid: eeb1b29236f79bb43bf30fbb48c768a2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443639616516001285, guid: eeb1b29236f79bb43bf30fbb48c768a2,
+        type: 3}
+      propertyPath: m_Name
+      value: WineTrolley
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eeb1b29236f79bb43bf30fbb48c768a2, type: 3}
