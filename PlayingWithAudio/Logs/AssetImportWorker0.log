@@ -15,11 +15,11 @@ D:/K3v/2021_8-17_UnityProjects/PlayingWithAudio/PlayingWithAudio
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63092
+53022
 Successfully changed project path to: D:/K3v/2021_8-17_UnityProjects/PlayingWithAudio/PlayingWithAudio
 D:/K3v/2021_8-17_UnityProjects/PlayingWithAudio/PlayingWithAudio
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 43.80 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 46.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -36,41 +36,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002269 seconds.
+Registered in 0.002153 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 42.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.030 seconds
+- Completed reload, in  1.014 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003199 seconds.
+Registered in 0.003596 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 41.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 44.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.971 seconds
+- Completed reload, in  1.008 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2700 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.2 MB.
+Unloading 2738 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.1 MB.
 System memory in use after: 126.7 MB.
 
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3129.
-Total: 2.338300 ms (FindLiveObjects: 0.210000 ms CreateObjectMapping: 0.103500 ms MarkObjects: 1.747700 ms  DeleteObjects: 0.276400 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3167.
+Total: 2.211600 ms (FindLiveObjects: 0.196000 ms CreateObjectMapping: 0.093100 ms MarkObjects: 1.680600 ms  DeleteObjects: 0.241100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -84,33 +84,97 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Ground textures pack/Grass 04/Materials
-  artifactKey: Guid(96057ca8ce56dbb4aad5415b976dbf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground textures pack/Grass 04/Materials using Guid(96057ca8ce56dbb4aad5415b976dbf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f975aa2e331d63ce1f7a696eadbd5011') in 0.007156 seconds 
-  Import took 0.010631 seconds .
+  path: Assets/Ground textures pack/Dry ground
+  artifactKey: Guid(9e385da045f1e6046bdb815440789d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Dry ground using Guid(9e385da045f1e6046bdb815440789d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4eccd0e68930a6387b3a632485257a') in 0.007196 seconds 
+  Import took 0.010712 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.073473 seconds.
-  path: Assets/Ground textures pack/Grass 04/diffuse.tga
-  artifactKey: Guid(e939889a01ba73f4c9f41bb8d6d79d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground textures pack/Grass 04/diffuse.tga using Guid(e939889a01ba73f4c9f41bb8d6d79d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b317090967f1c97318179571a646bc96') in 0.089089 seconds 
-  Import took 0.093133 seconds .
+  Time since last request: 4.724248 seconds.
+  path: Assets/Ground textures pack/Grass & dead leafs 01
+  artifactKey: Guid(da4accb3b3c287d40b2140bf93ab1054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Grass & dead leafs 01 using Guid(da4accb3b3c287d40b2140bf93ab1054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df983c4869b1298efc657b207ea783ca') in 0.005552 seconds 
+  Import took 0.009859 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Ground textures pack/Grass 04/normal.tga
-  artifactKey: Guid(764d3e4236eef804e831508161d4411f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground textures pack/Grass 04/normal.tga using Guid(764d3e4236eef804e831508161d4411f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debcacd06e938735e580799893dbd465') in 0.041035 seconds 
-  Import took 0.048461 seconds .
+  Time since last request: 5.053997 seconds.
+  path: Assets/Ground textures pack/Grass & dead leafs 02
+  artifactKey: Guid(889c13cf191f84a4e84706b80fcca175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Grass & dead leafs 02 using Guid(889c13cf191f84a4e84706b80fcca175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5df03918ee47aac93dc0a47a520a43d') in 0.004923 seconds 
+  Import took 0.009083 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 205.619722 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax
-  artifactKey: Guid(6008daaf28fd58349b70105e46e2a92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax using Guid(6008daaf28fd58349b70105e46e2a92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02632a12267c330181d5ad1964589fc') in 0.005333 seconds 
-  Import took 0.011020 seconds .
+  Time since last request: 5.439112 seconds.
+  path: Assets/Ground textures pack/Grass & rocks
+  artifactKey: Guid(cbe303a6c2789244f891318ebb8f6d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Grass & rocks using Guid(cbe303a6c2789244f891318ebb8f6d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f9801e2811f446cc5ebf953d0cfbe5') in 0.005017 seconds 
+  Import took 0.008841 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 8.600668 seconds.
+  path: Assets/Ground textures pack/Grass 05
+  artifactKey: Guid(c1973161bd8055c4c9c8b9bac3054b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Grass 05 using Guid(c1973161bd8055c4c9c8b9bac3054b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3eabc13427562f6e35135ab13777b7') in 0.005069 seconds 
+  Import took 0.008985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.016701 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/UnearthlyRed4k.hdr
+  artifactKey: Guid(a3de28b69b48944438c87668bd722ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/UnearthlyRed4k.hdr using Guid(a3de28b69b48944438c87668bd722ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b15b8deb973edbf6962c68515a4a2fe') in 0.160979 seconds 
+  Import took 0.167551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.525296 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/UnderTheSea4k.hdr
+  artifactKey: Guid(26cddb2a3a1bc804d8e9ca09b109793a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/UnderTheSea4k.hdr using Guid(26cddb2a3a1bc804d8e9ca09b109793a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c783136e6880fcfa670a13f270c48286') in 0.038024 seconds 
+  Import took 0.044240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.056756 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/SunlessCirruscover4k.hdr
+  artifactKey: Guid(99af420a4ccafa74abdc47436d8b0685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/SunlessCirruscover4k.hdr using Guid(99af420a4ccafa74abdc47436d8b0685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a658a1a1d74744856ed769ade73e5d') in 0.055786 seconds 
+  Import took 0.062629 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003796 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.901 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2642 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.5 MB.
+System memory in use after: 124.1 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3201.
+Total: 2.260100 ms (FindLiveObjects: 0.223100 ms CreateObjectMapping: 0.108000 ms MarkObjects: 1.702700 ms  DeleteObjects: 0.225600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
